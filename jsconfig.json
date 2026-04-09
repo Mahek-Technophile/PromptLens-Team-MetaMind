@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "C:/Users/mahek/Trifecta/PromptLens-Team-MetaMinds",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}

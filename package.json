@@ -1,0 +1,30 @@
+{
+  "name": "promptlens-team-metaminds",
+  "version": "1.0.0",
+  "description": "AI Prompt Optimizer for Sustainable AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahek-Technophile/PromptLens-Team-MetaMinds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahek-Technophile/PromptLens-Team-MetaMinds/issues"
+  },
+  "homepage": "https://github.com/Mahek-Technophile/PromptLens-Team-MetaMinds#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.0",
+    "groq-sdk": "^1.1.2",
+    "next": "^16.2.3"
+  },
+  "devDependencies": {
+    "typescript": "6.0.2"
+  }
+}
