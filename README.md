@@ -79,7 +79,7 @@ User Input (Verbose Prompt)
 
 ### Architecture
 
-- **Frontend**: Next.js 16 with React, custom CSS (no framework dependencies)
+- **Frontend**: Next.js 16 with React, Tailwind CSS
 - **Backend**: Next.js API Routes (`/api/optimize`, `/api/history`)
 - **AI Engine**: Groq SDK with Llama 3.1 8B Instant
 - **Database**: Supabase (PostgreSQL) for persistent storage
