@@ -234,18 +234,6 @@ Adding environmental impact metrics was a late addition that resonated strongly 
 
 ---
 
-## Contributing
-
-Contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request.
-
----
-
-## License
-
-ISC
-
----
-
 ## Acknowledgments
 
 - [Groq](https://groq.com) for fast LLM inference
