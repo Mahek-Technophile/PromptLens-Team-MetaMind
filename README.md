@@ -12,11 +12,11 @@
 
 ## Overview
 
-PromptLens is a real-time prompt optimization platform that helps developers and AI practitioners reduce token usage in their prompts—without sacrificing output quality. By applying proven token-efficiency techniques, the platform calculates both computational savings and environmental impact, making it the first prompt optimizer that connects developer productivity with environmental sustainability.
+PromptLens is a real-time prompt optimization platform that helps developers and AI practitioners reduce token usage in their prompts-without sacrificing output quality. By applying proven token-efficiency techniques, the platform calculates both computational savings and environmental impact, making it the first prompt optimizer that connects developer productivity with environmental sustainability.
 
 ### Why It Matters
 
-Every token processed by an LLM consumes computational resources—electricity, cooling water in data centers, and hardware lifecycle costs. A 30-40% reduction in prompt tokens translates directly to:
+Every token processed by an LLM consumes computational resources-electricity, cooling water in data centers, and hardware lifecycle costs. A 30-40% reduction in prompt tokens translates directly to:
 
 - Lower API costs (many providers charge by token)
 - Reduced carbon footprint
@@ -39,11 +39,11 @@ PromptLens automates the optimization process, applying five battle-tested techn
 
 ### The Five Optimization Techniques
 
-1. **Filler Removal** — Strips redundant words, hedge phrases, and unnecessary qualifiers
-2. **Structured Formats** — Converts prose to bullet points, JSON schemas, or tables
-3. **Output Constraints** — Adds explicit format and length limits to guide responses
-4. **Pleasantry Elimination** — Removes greetings, sign-offs, and social niceties
-5. **Strategic Role Prompting** — Applies role assignment only when it meaningfully improves output
+1. **Filler Removal** - Strips redundant words, hedge phrases, and unnecessary qualifiers
+2. **Structured Formats** - Converts prose to bullet points, JSON schemas, or tables
+3. **Output Constraints** - Adds explicit format and length limits to guide responses
+4. **Pleasantry Elimination** - Removes greetings, sign-offs, and social niceties
+5. **Strategic Role Prompting** - Applies role assignment only when it meaningfully improves output
 
 ---
 
@@ -194,7 +194,7 @@ The project began with a simple observation: developers often write prompts that
 
 ### Iteration 1: Basic Optimization
 
-The initial implementation used rule-based string manipulation—simple regex replacements for common phrases. While effective for obvious cases, it couldn't handle nuanced optimization or adapt to different prompt styles.
+The initial implementation used rule-based string manipulation-simple regex replacements for common phrases. While effective for obvious cases, it couldn't handle nuanced optimization or adapt to different prompt styles.
 
 ### Iteration 2: LLM-Powered Approach
 
@@ -202,7 +202,7 @@ Moving to an LLM-based solution using Groq's fast inference API transformed the 
 
 ### Iteration 3: Environmental Awareness
 
-Adding environmental impact metrics was a late addition that resonated strongly with users. It transforms optimization from a pure cost-saving exercise into something with broader meaning—each prompt optimized contributes to reducing data center resource consumption.
+Adding environmental impact metrics was a late addition that resonated strongly with users. It transforms optimization from a pure cost-saving exercise into something with broader meaning-each prompt optimized contributes to reducing data center resource consumption.
 
 ### Challenges Overcome
 
@@ -225,12 +225,12 @@ Adding environmental impact metrics was a late addition that resonated strongly 
 
 ## Future Improvements
 
-- [ ] **Batch optimization** — Process multiple prompts simultaneously
-- [ ] **Custom technique profiles** — Let users enable/disable specific optimization techniques
-- [ ] **Prompt comparison view** — Side-by-side before/after with quality metrics
-- [ ] **Team features** — Shared optimization history and prompt templates
-- [ ] **Analytics dashboard** — Aggregate environmental impact over time
-- [ ] **Plugin integrations** — VS Code extension, Slack bot, CLI tool
+- [ ] **Batch optimization** - Process multiple prompts simultaneously
+- [ ] **Custom technique profiles** - Let users enable/disable specific optimization techniques
+- [ ] **Prompt comparison view** - Side-by-side before/after with quality metrics
+- [ ] **Team features** - Shared optimization history and prompt templates
+- [ ] **Analytics dashboard** - Aggregate environmental impact over time
+- [ ] **Plugin integrations** - VS Code extension, Slack bot, CLI tool
 
 ---
 
